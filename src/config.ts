@@ -1,6 +1,1 @@
-export const ADMIN = {
-    id:"adminid",
-    name:'michal zrian',
-    email : 'm43797@gmail.com',
-    password : '214379737',
-}
+export const domain = 'http://localhost:5000/api'

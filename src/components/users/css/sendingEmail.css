@@ -1,0 +1,122 @@
+/* .SendingEmailrea {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+  }
+  .SendingEmailrea section form {
+    min-width: 25rem;
+    margin: 0 auto;
+    border: solid 1px #bdbdbd;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  #h1Form {
+    text-align: center;
+    color: #ffffff;
+  }
+  #emailForm #emailForm-wrapper {
+    margin: 0 auto;
+  }
+  
+  #emailForm #emailForm-wrapper > div {
+    margin-bottom: 1rem;
+  }
+  #emailForm #emailForm-wrapper > div > label {
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    display: block;
+  }
+  #emailForm #emailForm-wrapper > div > input, form .form-wrapper > div > textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    min-width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #emailForm #emailForm-wrapper > div > button {
+    padding: 1rem 2.5rem;
+    color: white;
+    background: rgb(4, 144, 199);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  } */
+  .SendingEmailrea {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+  }
+  
+  .SendingEmailrea section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SendingEmailrea form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SendingEmailrea h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  .SendingEmailrea .form-wrapper {
+    margin-top: 20px;
+  }
+  
+  .SendingEmailrea .form-wrapper > div {
+    margin-bottom: 15px;
+  }
+  
+  .SendingEmailrea label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .SendingEmailrea input[type="email"],
+  .SendingEmailrea input[type="text"],
+  .SendingEmailrea textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .SendingEmailrea textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .SendingEmailrea button {
+    padding: 12px 20px;
+    margin-top: 15px;
+    background-color: #048cc7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .SendingEmailrea button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .SendingEmailrea button:hover {
+    background-color: #007bb5;
+  }
+  

@@ -1,0 +1,137 @@
+/* homePageStyle.css */
+
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark Gray */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Advertisement styles */
+.advertisement {
+    background-color: #ffd700; /* Gold */
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea, input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 14px 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Form error styles */
+.form-error {
+    color: red;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+#profileImage{
+    width: 70px;
+    height: 80;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#divProfileImage{
+    width: 100px;
+}
+#userName{
+    font-size: 20px;
+}
+
+.schedule-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.schedule-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.schedule-btn:active {
+    background-color: #3e8e41;
+    transform: scale(1);
+}
